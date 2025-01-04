@@ -1,0 +1,41 @@
+.container {
+    max-width: rem(1224);
+    margin: 0 auto;
+    padding: 0 2%;
+
+    @media (max-width: 768px) {
+        padding: 0 33px;
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center;
+}

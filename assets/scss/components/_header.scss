@@ -1,0 +1,13 @@
+header {
+    .container {
+        .logo {
+            max-width: rem(150);
+        }
+
+        nav {
+            ul {
+                gap: rem(40);
+            }
+        }
+    }
+}
